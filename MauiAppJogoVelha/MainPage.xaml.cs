@@ -141,6 +141,19 @@
                 limpar();
             }
 
+            else if (btn10.IsEnabled == false &&
+                     btn11.IsEnabled == false &&
+                     btn12.IsEnabled == false &&
+                     btn20.IsEnabled == false &&
+                     btn21.IsEnabled == false &&
+                     btn22.IsEnabled == false &&
+                     btn30.IsEnabled == false &&
+                     btn31.IsEnabled == false &&
+                     btn32.IsEnabled == false )
+            {
+                DisplayAlert("Vocês perderam", "Velha");
+            }
+
         }
         private void limpar()
         {
